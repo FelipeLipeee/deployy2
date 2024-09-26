@@ -1,0 +1,88 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 80px;
+}
+
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.projects-section {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.navbar {
+    transition: background-color 0.5s ease;
+}
+
+.navbar-light.bg-light {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-light.bg-light.scrolled {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.contact-section {
+    padding: 50px 0;
+}
+
+.contact-section h2 {
+    margin-bottom: 30px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.skills-section {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+}
+
+.skills-section i {
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.skills-section i:hover {
+    color: #0056b3;
+}
+
+.navbar-icon {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}

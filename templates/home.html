@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - My Portfolio{% endblock %}
+
+{% block content %}
+    <!-- Hero Section -->
+    <div class="hero-section text-center">
+        <h1>Welcome to My Portfolio</h1>
+        <p class="lead">I'm a passionate backend developer and Computer Science student.</p>
+        <a href="/about" class="btn btn-primary btn-lg">Learn More About Me</a>
+    </div>
+
+    <!-- Projects Section -->
+    <section class="projects-section mt-5">
+        <h2 class="text-center">My Projects</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card shadow-sm mb-4">
+                    <div class="card-body text-center">
+                        <i class="fas fa-code fa-3x mb-3"></i>
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">A detailed description of the project with key technologies used.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm mb-4">
+                    <div class="card-body text-center">
+                        <i class="fas fa-database fa-3x mb-3"></i>
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">A detailed description of the project with key technologies used.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm mb-4">
+                    <div class="card-body text-center">
+                        <i class="fas fa-mobile-alt fa-3x mb-3"></i>
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">A detailed description of the project with key technologies used.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
